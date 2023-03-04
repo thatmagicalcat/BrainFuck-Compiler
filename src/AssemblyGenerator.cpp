@@ -81,7 +81,7 @@ void AssemblyGenerator::Decrement(u32 i) {
   m_out << "\tcmp al, 0\n";
   m_out << "\tjz label_err_msg_zero\n";
 
-  // load the current cell's value in eax register
+  // subtract the value and move the value back to the array
   m_out << "\tsub al, " << i << '\n';
   m_out << "\tmov byte [ebx], al\n";
 }
