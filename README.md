@@ -1,5 +1,4 @@
 # BrainFuck Compiler
-<hr width = 18%>
 
 An actual brainfuck compiler written in C++
 
