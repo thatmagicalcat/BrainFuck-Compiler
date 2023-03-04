@@ -1,0 +1,15 @@
+#ifndef TOKENS_HPP
+#define TOKENS_HPP
+
+enum TOKENS {
+  LEFT,
+  RIGHT,
+  INCREMENT,
+  DECREMENT,
+  LOOP_START,
+  LOOP_END,
+  OUTPUT,
+  INPUT,
+};
+
+#endif // !TOKENS_HPP
